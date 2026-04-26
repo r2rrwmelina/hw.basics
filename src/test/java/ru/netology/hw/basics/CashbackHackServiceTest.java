@@ -28,13 +28,13 @@ public class CashbackHackServiceTest {
     }
 
     // Падающий тест
-//    @Test
-//    public void shouldNotShowAmountBeforeCashback() {
-//        int amount = 1000;
-//
-//        int expected = 0;
-//        int actual = service.remain(amount);
-//
-//        Assert.assertEquals(actual, expected);
-//    }
+    @Test
+    public void shouldNotShowAmountBeforeCashback() {
+        int amount = 1000;
+
+        int expected = 0;
+        int actual = service.remain(amount);
+
+        Assert.assertEquals(actual, expected);
+    }
 }
